@@ -30,6 +30,9 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+build/
+.packages
+flutter_export_environment.sh
 
 # Symbolication related
 app.*.symbols
@@ -41,3 +44,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android specific
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/build/
+
+# iOS specific
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
